@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background: #efefef;
+}
+.tarjeta img{
+    width: 100%;
+
+}
+
+.tarjeta{
+        width: 20%;
+        margin: 30px 30px 30px 30px;
+        background: white;
+        padding: 25px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 1px 11px 0 #00000030;
+
+}
+
+h2{
+    font-size: 25px ;
+    color: rgb(44, 43, 43);
+    text-shadow: 1px 1px 2px rgb(182, 182, 182);
+
+}
+.profesion{
+    line-height: 4px; 
+    color: rgb(235, 76, 76);
+}
+
+.parrafo{
+   line-height: 18px; 
+   color: #808080;
+}
+
+#facebook{
+    color: #3b5998;
+    transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+    
+}
+#facebook:hover{
+    color: #718ecc;
+    transform : scale(2);
+    -moz-transform : scale(2); /* Firefox */
+    -webkit-transform : scale(2); /* Chrome - Safari */
+    -o-transform : scale(2); /* Opera */
+    -ms-transform : scale(2); /* IE9 */
+}
+#instagram{
+    color: #3f729b ;
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+#instagram:hover{
+    color: #4d8cc0;
+    transform : scale(2);
+    -moz-transform : scale(2); /* Firefox */
+    -webkit-transform : scale(2); /* Chrome - Safari */
+    -o-transform : scale(2); /* Opera */
+    -ms-transform : scale(2); /* IE9 */
+}
+#whatsapp{
+    color: #00bb2d;
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+#whatsapp:hover{
+    color: #4ae46e;
+    transform : scale(2);
+    -moz-transform : scale(2); /* Firefox */
+    -webkit-transform : scale(2); /* Chrome - Safari */
+    -o-transform : scale(2); /* Opera */
+    -ms-transform : scale(2); /* IE9 */
+}
+#google{
+    color:  #db4a39 ;
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+#google:hover{
+    color: #ec7d71;
+    transform : scale(2);
+    -moz-transform : scale(2); /* Firefox */
+    -webkit-transform : scale(2); /* Chrome - Safari */
+    -o-transform : scale(2); /* Opera */
+    -ms-transform : scale(2); /* IE9 */
+}
+i{
+    margin: 0 10px;
+    font-size: 30px;
+}
